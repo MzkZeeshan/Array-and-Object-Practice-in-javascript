@@ -1,0 +1,68 @@
+object
+    object array ki taraah hote hote he or ye mostly  used hote he
+    object its self bunch of value
+    property name  and property value
+    example Name : M.ali mughal
+    e.g var palne1=
+     {
+       name="basic",
+       price="22Rs",
+       //define array in object
+       a:[5,6]
+       // define function in object
+       aa: function(asdf)
+       {
+         //this ke throw apko obj name likhne ki zarorat ni he or ye bhi karsakte he var a=palne1.name
+         var a=this.name
+         return asdf;
+       }
+     }
+     access tarika
+     palne1.name;
+     //array 
+        palne1.a[1]
+     //array 
+        palne1.a[0]
+     //function
+         var a=palne1.aa(2); 
+
+     update property value
+       palne1.name="premium";
+     empty object bhi bana sakte he
+        var a={};
+     or phir us me value dal sakte he
+
+
+
+  object ke ander function array or variable rakh skte he
+
+in check value
+  is  se ham check kar sakte he ke wo property  he ya ni
+  e.g "name" in palne1
+  agar hoga to ye true   
+
+
+
+
+
+cunctructor function se kam howa asan
+   function a(name,last)
+    {
+    this.n=name;
+    this.l=last;
+    //jb app constructor function me function banae ge to = kar ke banae ge but jb simple obj me kare ge to a: function(a){return a;}
+    this.price=function(p)
+     {
+       return p;
+
+     }
+    }
+    //call constructor
+    var aa=new a('zeeshan','khan')
+    undefined
+    aa
+    a {n: "zeeshan", l: "khan"} 
+
+
+
+
